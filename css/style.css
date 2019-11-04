@@ -90,6 +90,11 @@ h1, h2 {
     box-shadow: inset -5px -125px 116px -50px #0e0d0d,
             0px 0px 2px 1px #0F140D;
 }
+.flex-block:hover {
+    box-shadow: inset -5px -150px 116px -10px #0e0d0d,
+            0px 0px 2px 1px #0F140D;
+    cursor: pointer;
+}
 
 .flex-block:nth-child(1) {
     background-image: url('../img/post1.png');
